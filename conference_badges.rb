@@ -29,8 +29,8 @@ end
 #assign_rooms method, takes in a list of speakers (array), creates a new array, itterates through the list of speakers, with each and an index, inside the iteration, we place a new variable of rooms, and assign it to the amount of rooms, then we push the phrase to the new array, adding a name and the index of the variable rooms, and repeat the process until all the rooms are filled
 
 
-def printer(array, attendees)
-  batch_badge_creator(array);
+def printer(attendees)
+  batch_badge_creator;
   assign_rooms(attendees);
   attendees.each do|attendee|
     puts attendee;
