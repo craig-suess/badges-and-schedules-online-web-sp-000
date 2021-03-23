@@ -33,6 +33,6 @@ def printer(attendees)
   batch_badge_creator(attendees);
   assign_rooms(attendees);
   attendees.each do|attendee|
-    puts "Hello, my name is #{attendee}";
+    puts "Hello, my name is #{attendee}.";
   end
 end 
