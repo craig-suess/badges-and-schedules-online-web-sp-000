@@ -31,5 +31,8 @@ end
 
 def printer(array, attendees)
   batch_badge_creator(array);
-  
+  assign_rooms(attendees);
+  attendees.each do|attendee|
+    puts attendee;
+  end
 end 
