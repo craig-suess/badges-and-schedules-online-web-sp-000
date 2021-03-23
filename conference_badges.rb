@@ -33,7 +33,7 @@ def printer(attendees)
   batch_badge_creator(attendees).each do|name|
     puts "#{name}";
   end 
-  assign_rooms(attendees).each_with_index do|name, room|
+  assign_rooms(attendees).each do|name|
     puts "#{name}, #{room}"
   end 
 end 
