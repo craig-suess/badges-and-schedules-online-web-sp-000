@@ -30,8 +30,10 @@ end
 
 
 def printer(attendees)
-  batch_badge_creator(attendees);
-  assign_rooms(attendees).each do|attendee|
+  batch_badge_creator(attendees).each do|name|
+    puts "Hello, my name is #{badge}.";
+  assign_rooms(attendees).each_with_index do|name, room|
+    rooms = [1, 2, 3, 4, 5, 6, 7];
     puts attendee;
   end 
 end 
