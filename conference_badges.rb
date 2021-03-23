@@ -37,3 +37,5 @@ def printer(attendees)
     puts "#{name}"
   end 
 end 
+
+#printer method, itterate through both methods to print the name of the attendees, using the code to implement the phrases from the other methods. 
