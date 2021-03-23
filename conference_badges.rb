@@ -36,6 +36,4 @@ def printer(attendees)
   assign_rooms(attendees).each_with_index do|name, room|
     puts "#{name}, #{room}"
   end 
- 
-
 end 
